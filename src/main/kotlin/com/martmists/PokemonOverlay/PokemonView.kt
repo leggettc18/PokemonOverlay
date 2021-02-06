@@ -75,33 +75,70 @@ class PokemonView : View() {
                             layoutY = 21.0
                             addClass(PokemonStyle.Type2)
                         }
+                        label {
+                            text = String.format("%-9s\t%d", "HP: ", empty.hp)
+                            layoutX = 155.0
+                            layoutY = 0.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Attack: ", empty.attack)
+                            layoutX = 155.0
+                            layoutY = 8.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Defense: ", empty.defense)
+                            layoutX = 155.0
+                            layoutY = 16.0
+                            addClass(PokemonStyle.Stat)
+
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Atk: ", empty.spAttack)
+                            layoutX = 155.0
+                            layoutY = 24.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Def: ", empty.spDefense)
+                            layoutX = 155.0
+                            layoutY = 32.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Speed: ", empty.speed)
+                            layoutX = 155.0
+                            layoutY = 40.0
+                            addClass(PokemonStyle.Stat)
+                        }
                         if (readJsonPath.isNullOrBlank()) {
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "X"
                                 addClass(PokemonStyle.XButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "+"
                                 addClass(PokemonStyle.PlusButton)
                             }
                             button {
-                                layoutX = 210.0
+                                layoutX = 310.0
                                 layoutY = 25.0
                                 text = "+"
                                 addClass(PokemonStyle.LevelPlusButton)
                             }
                             button {
-                                layoutX = 240.0
+                                layoutX = 340.0
                                 layoutY = 25.0
                                 text = "-"
                                 addClass(PokemonStyle.LevelMinusButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 26.0
                                 text = "\u270e"
                                 addClass(PokemonStyle.EditButton)
@@ -153,33 +190,70 @@ class PokemonView : View() {
                             layoutY = 21.0
                             addClass(PokemonStyle.Type2)
                         }
+                        label {
+                            text = String.format("%-9s\t%d", "HP: ", empty.hp)
+                            layoutX = 155.0
+                            layoutY = 0.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Attack: ", empty.attack)
+                            layoutX = 155.0
+                            layoutY = 8.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Defense: ", empty.defense)
+                            layoutX = 155.0
+                            layoutY = 16.0
+                            addClass(PokemonStyle.Stat)
+
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Atk: ", empty.spAttack)
+                            layoutX = 155.0
+                            layoutY = 24.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Def: ", empty.spDefense)
+                            layoutX = 155.0
+                            layoutY = 32.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Speed: ", empty.speed)
+                            layoutX = 155.0
+                            layoutY = 40.0
+                            addClass(PokemonStyle.Stat)
+                        }
                         if (readJsonPath.isNullOrBlank()) {
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "X"
                                 addClass(PokemonStyle.XButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "+"
                                 addClass(PokemonStyle.PlusButton)
                             }
                             button {
-                                layoutX = 210.0
+                                layoutX = 310.0
                                 layoutY = 25.0
                                 text = "+"
                                 addClass(PokemonStyle.LevelPlusButton)
                             }
                             button {
-                                layoutX = 240.0
+                                layoutX = 340.0
                                 layoutY = 25.0
                                 text = "-"
                                 addClass(PokemonStyle.LevelMinusButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 26.0
                                 text = "\u270e"
                                 addClass(PokemonStyle.EditButton)
@@ -234,33 +308,70 @@ class PokemonView : View() {
                             layoutY = 21.0
                             addClass(PokemonStyle.Type2)
                         }
+                        label {
+                            text = String.format("%-9s\t%d", "HP: ", empty.hp)
+                            layoutX = 155.0
+                            layoutY = 0.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Attack: ", empty.attack)
+                            layoutX = 155.0
+                            layoutY = 8.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Defense: ", empty.defense)
+                            layoutX = 155.0
+                            layoutY = 16.0
+                            addClass(PokemonStyle.Stat)
+
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Atk: ", empty.spAttack)
+                            layoutX = 155.0
+                            layoutY = 24.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Def: ", empty.spDefense)
+                            layoutX = 155.0
+                            layoutY = 32.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Speed: ", empty.speed)
+                            layoutX = 155.0
+                            layoutY = 40.0
+                            addClass(PokemonStyle.Stat)
+                        }
                         if (readJsonPath.isNullOrBlank()) {
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "X"
                                 addClass(PokemonStyle.XButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "+"
                                 addClass(PokemonStyle.PlusButton)
                             }
                             button {
-                                layoutX = 210.0
+                                layoutX = 310.0
                                 layoutY = 25.0
                                 text = "+"
                                 addClass(PokemonStyle.LevelPlusButton)
                             }
                             button {
-                                layoutX = 240.0
+                                layoutX = 340.0
                                 layoutY = 25.0
                                 text = "-"
                                 addClass(PokemonStyle.LevelMinusButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 26.0
                                 text = "\u270e"
                                 addClass(PokemonStyle.EditButton)
@@ -312,33 +423,70 @@ class PokemonView : View() {
                             layoutY = 21.0
                             addClass(PokemonStyle.Type2)
                         }
+                        label {
+                            text = String.format("%-9s\t%d", "HP: ", empty.hp)
+                            layoutX = 155.0
+                            layoutY = 0.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Attack: ", empty.attack)
+                            layoutX = 155.0
+                            layoutY = 8.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Defense: ", empty.defense)
+                            layoutX = 155.0
+                            layoutY = 16.0
+                            addClass(PokemonStyle.Stat)
+
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Atk: ", empty.spAttack)
+                            layoutX = 155.0
+                            layoutY = 24.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Def: ", empty.spDefense)
+                            layoutX = 155.0
+                            layoutY = 32.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Speed: ", empty.speed)
+                            layoutX = 155.0
+                            layoutY = 40.0
+                            addClass(PokemonStyle.Stat)
+                        }
                         if (readJsonPath.isNullOrBlank()) {
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "X"
                                 addClass(PokemonStyle.XButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "+"
                                 addClass(PokemonStyle.PlusButton)
                             }
                             button {
-                                layoutX = 210.0
+                                layoutX = 310.0
                                 layoutY = 25.0
                                 text = "+"
                                 addClass(PokemonStyle.LevelPlusButton)
                             }
                             button {
-                                layoutX = 240.0
+                                layoutX = 340.0
                                 layoutY = 25.0
                                 text = "-"
                                 addClass(PokemonStyle.LevelMinusButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 26.0
                                 text = "\u270e"
                                 addClass(PokemonStyle.EditButton)
@@ -393,33 +541,70 @@ class PokemonView : View() {
                             layoutY = 21.0
                             addClass(PokemonStyle.Type2)
                         }
+                        label {
+                            text = String.format("%-9s\t%d", "HP: ", empty.hp)
+                            layoutX = 155.0
+                            layoutY = 0.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Attack: ", empty.attack)
+                            layoutX = 155.0
+                            layoutY = 8.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Defense: ", empty.defense)
+                            layoutX = 155.0
+                            layoutY = 16.0
+                            addClass(PokemonStyle.Stat)
+
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Atk: ", empty.spAttack)
+                            layoutX = 155.0
+                            layoutY = 24.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Def: ", empty.spDefense)
+                            layoutX = 155.0
+                            layoutY = 32.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Speed: ", empty.speed)
+                            layoutX = 155.0
+                            layoutY = 40.0
+                            addClass(PokemonStyle.Stat)
+                        }
                         if (readJsonPath.isNullOrBlank()) {
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "X"
                                 addClass(PokemonStyle.XButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "+"
                                 addClass(PokemonStyle.PlusButton)
                             }
                             button {
-                                layoutX = 210.0
+                                layoutX = 310.0
                                 layoutY = 25.0
                                 text = "+"
                                 addClass(PokemonStyle.LevelPlusButton)
                             }
                             button {
-                                layoutX = 240.0
+                                layoutX = 340.0
                                 layoutY = 25.0
                                 text = "-"
                                 addClass(PokemonStyle.LevelMinusButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 26.0
                                 text = "\u270e"
                                 addClass(PokemonStyle.EditButton)
@@ -471,33 +656,70 @@ class PokemonView : View() {
                             layoutY = 21.0
                             addClass(PokemonStyle.Type2)
                         }
+                        label {
+                            text = String.format("%-9s\t%d", "HP: ", empty.hp)
+                            layoutX = 155.0
+                            layoutY = 0.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Attack: ", empty.attack)
+                            layoutX = 155.0
+                            layoutY = 8.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Defense: ", empty.defense)
+                            layoutX = 155.0
+                            layoutY = 16.0
+                            addClass(PokemonStyle.Stat)
+
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Atk: ", empty.spAttack)
+                            layoutX = 155.0
+                            layoutY = 24.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Sp. Def: ", empty.spDefense)
+                            layoutX = 155.0
+                            layoutY = 32.0
+                            addClass(PokemonStyle.Stat)
+                        }
+                        label {
+                            text = String.format("%-9s\t%d", "Speed: ", empty.speed)
+                            layoutX = 155.0
+                            layoutY = 40.0
+                            addClass(PokemonStyle.Stat)
+                        }
                         if (readJsonPath.isNullOrBlank()) {
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "X"
                                 addClass(PokemonStyle.XButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 4.0
                                 text = "+"
                                 addClass(PokemonStyle.PlusButton)
                             }
                             button {
-                                layoutX = 210.0
+                                layoutX = 310.0
                                 layoutY = 25.0
                                 text = "+"
                                 addClass(PokemonStyle.LevelPlusButton)
                             }
                             button {
-                                layoutX = 240.0
+                                layoutX = 340.0
                                 layoutY = 25.0
                                 text = "-"
                                 addClass(PokemonStyle.LevelMinusButton)
                             }
                             button {
-                                layoutX = 270.0
+                                layoutX = 370.0
                                 layoutY = 26.0
                                 text = "\u270e"
                                 addClass(PokemonStyle.EditButton)
@@ -520,11 +742,11 @@ class PokemonView : View() {
                 val children = it.center.getChildList()!!
 
                 if (readJsonPath.isNullOrBlank()) {
-                    val remove = children[7] as Button
-                    val add = children[8] as Button
-                    val buttonLevelPlus = children[9] as Button
-                    val buttonLevelMinus = children[10] as Button
-                    val buttonEdit = children[11] as Button
+                    val remove = children[13] as Button
+                    val add = children[14] as Button
+                    val buttonLevelPlus = children[15] as Button
+                    val buttonLevelMinus = children[16] as Button
+                    val buttonEdit = children[17] as Button
 
 
                     remove.onAction = EventHandler<ActionEvent> { _ -> removePokemon(i * 2 + j) }
@@ -567,6 +789,60 @@ class PokemonView : View() {
                                         if (pokemonJson.getString("helditemtext") != "none") {
                                             setPItem(pokemonJson.getString("helditemtext"))
                                         }
+                                        if (pokemonJson.getInt("maxhpstat") != 0) {
+                                            setPHp(pokemonJson.getInt("maxhpstat"))
+                                        }
+                                        if (pokemonJson.getInt("atkstat") != 0) {
+                                            setPAttack(pokemonJson.getInt("atkstat"))
+                                        }
+                                        if (pokemonJson.getInt("defstat") != 0) {
+                                            setPDefense(pokemonJson.getInt("defstat"))
+                                        }
+                                        if (pokemonJson.getInt("spastat") != 0) {
+                                            setPSpAttack(pokemonJson.getInt("spastat"))
+                                        }
+                                        if (pokemonJson.getInt("spdstat") != 0) {
+                                            setPSpDefense(pokemonJson.getInt("spdstat"))
+                                        }
+                                        if (pokemonJson.getInt("spestat") != 0) {
+                                            setPSpeed(pokemonJson.getInt("spestat"))
+                                        }
+                                        if (pokemonJson.getInt("hpev") != 0) {
+                                            setPHpEv(pokemonJson.getInt("hpev"))
+                                        }
+                                        if (pokemonJson.getInt("atkev") != 0) {
+                                            setPAttackEv(pokemonJson.getInt("atkev"))
+                                        }
+                                        if (pokemonJson.getInt("defev") != 0) {
+                                            setPDefenseEv(pokemonJson.getInt("defev"))
+                                        }
+                                        if (pokemonJson.getInt("spaev") != 0) {
+                                            setPSpAttackEv(pokemonJson.getInt("spaev"))
+                                        }
+                                        if (pokemonJson.getInt("spdev") != 0 ) {
+                                            setPSpDefenseEv(pokemonJson.getInt("spdev"))
+                                        }
+                                        if (pokemonJson.getInt("speev") != 0) {
+                                            setPSpeedEv(pokemonJson.getInt("speev"))
+                                        }
+                                        if (pokemonJson.getInt("hpiv") != 0) {
+                                            setPHpIv(pokemonJson.getInt("hpiv"))
+                                        }
+                                        if (pokemonJson.getInt("atkiv") != 0) {
+                                            setPAttackIv(pokemonJson.getInt("atkiv"))
+                                        }
+                                        if (pokemonJson.getInt("defiv") != 0) {
+                                            setPDefenseIv(pokemonJson.getInt("defiv"))
+                                        }
+                                        if (pokemonJson.getInt("spaiv") != 0) {
+                                            setPSpAttackIv(pokemonJson.getInt("spaiv"))
+                                        }
+                                        if (pokemonJson.getInt("spdiv") != 0 ) {
+                                            setPSpDefenseIv(pokemonJson.getInt("spdiv"))
+                                        }
+                                        if (pokemonJson.getInt("speiv") != 0) {
+                                            setPSpeedIv(pokemonJson.getInt("speiv"))
+                                        }
                                     }
                                 }
                                 pokes[i] = pok
@@ -592,6 +868,12 @@ class PokemonView : View() {
         val itemicon = children[2] as ImageView
         val nickname = children[1] as Label
         val itemname = children[3] as Label
+        val hp = children[7] as Label
+        val attack = children[8] as Label
+        val defense = children[9] as Label
+        val spAttack = children[10] as Label
+        val spDefense = children[11] as Label
+        val speed = children[12] as Label
 
         val typeImage1 = children[5] as ImageView
         val typeImage2 = children[6] as ImageView
@@ -600,22 +882,28 @@ class PokemonView : View() {
         ballicon.image = getImage(pokemon.ball)
         nickname.text = if (pokemon.nickname != "") "${pokemon.nickname} Lvl. ${pokemon.level}" else ""
         itemname.text = pokemon.item
+        hp.text =           String.format("%-10s\t%-4d\t%-5s\t%-4d\t%-5s\t%-4d", "HP:", pokemon.hp, "EVs:", pokemon.hpEv, "IVs:", pokemon.hpIv)
+        attack.text =       String.format("%-10s\t%-4d\t%-5s\t%-4d\t%-5s\t%-4d", "Attack:", pokemon.attack, "EVs:", pokemon.attackEv,"IVs:", pokemon.attackIv)
+        defense.text =      String.format("%-10s\t%-4d\t%-5s\t%-4d\t%-5s\t%-4d", "Defense:", pokemon.defense, "EVs:", pokemon.defenseEv, "IVs:", pokemon.defenseIv)
+        spAttack.text =     String.format("%-10s\t%-4d\t%-5s\t%-4d\t%-5s\t%-4d", "Sp. Atk:", pokemon.spAttack, "EVs:", pokemon.spAttackEv, "IVs:", pokemon.spAttackIv)
+        spDefense.text =    String.format("%-10s\t%-4d\t%-5s\t%-4d\t%-5s\t%-4d", "Sp. Def:", pokemon.spDefense, "EVs:", pokemon.spDefenseEv, "IVs:", pokemon.spDefenseIv)
+        speed.text =        String.format("%-10s\t%-4d\t%-5s\t%-4d\t%-5s\t%-4d", "Speed:", pokemon.speed, "EVs:", pokemon.speedEv, "IVs:", pokemon.speedIv)
 
         itemicon.image = if (pokemon.item == "") placeholder else getImage("https://cdn.bulbagarden.net/upload/d/d6/Held_icon_VII.png")
 
         typeImage1.image = getImage(pokemon.types[0])
         typeImage2.image = getImage(pokemon.types[1])
         if (readJsonPath.isNullOrBlank()){
-            val buttonX = children[7] as Button
-            val buttonPlus = children[8] as Button
+            val buttonX = children[13] as Button
+            val buttonPlus = children[14] as Button
 
-            val buttonLevelPlus = children[9] as Button
-            val buttonLevelMinus = children[10] as Button
+            val buttonLevelPlus = children[15] as Button
+            val buttonLevelMinus = children[16] as Button
 
-            val buttonEdit = children[11] as Button
+            val buttonEdit = children[17] as Button
 
             buttonX.isVisible = (pokemon.nickname != "")
-            buttonPlus.isVisible = if (i > 0) panes.subList(0, i).filter { !it.center.getChildList()!![7].isVisible }.isEmpty() and !children[7].isVisible else pokemon == empty
+            buttonPlus.isVisible = if (i > 0) panes.subList(0, i).filter { !it.center.getChildList()!![13].isVisible }.isEmpty() and !children[13].isVisible else pokemon == empty
 
             buttonLevelPlus.isVisible = buttonX.isVisible
             buttonLevelPlus.isDisable = (pokemon.level == 100)

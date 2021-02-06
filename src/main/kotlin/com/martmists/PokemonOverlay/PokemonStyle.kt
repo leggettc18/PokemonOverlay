@@ -16,6 +16,7 @@ class PokemonStyle: Stylesheet() {
         val PokeBall by cssclass()
         val ItemIcon by cssclass()
         val ItemName by cssclass()
+        val Stat by cssclass()
         val Nickname by cssclass()
 
         val Inner by cssclass()
@@ -47,8 +48,8 @@ class PokemonStyle: Stylesheet() {
             prefWidth = 1305.px
             padding = box(40.px)
 
-            backgroundImage += ClassLoader.getSystemResource("overlay.png").toURI()
-            // backgroundColor += Color.RED
+            // backgroundImage += ClassLoader.getSystemResource("overlay.png").toURI()
+            backgroundColor += Color.BLACK
         }
 
         Column {
@@ -57,7 +58,7 @@ class PokemonStyle: Stylesheet() {
         }
 
         Pokemon {
-            prefWidth = 305.px
+            prefWidth = 405.px
             prefHeight = 60.px
             // backgroundColor += Color.WHITE
         }
@@ -82,12 +83,18 @@ class PokemonStyle: Stylesheet() {
             padding = box(0.px, 0.px, 0.px, 0.px)
         }
 
+        Stat {
+            scaleX = 0.75
+            scaleY = 0.75
+            padding = box(0.px, 0.px, 0.px, 0.px)
+        }
+
         row1 {
-            padding = box(0.px, 100.px, 0.px, 0.px)
+            padding = box(0.px, 0.px, 0.px, 0.px)
         }
 
         row2 {
-            padding = box(0.px, 0.px, 0.px, 100.px)
+            padding = box(0.px, 0.px, 0.px, 0.px)
         }
 
         s(XButton, PlusButton, EditButton) {

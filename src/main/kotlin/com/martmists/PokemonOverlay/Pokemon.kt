@@ -16,6 +16,24 @@ class Pokemon(id: Any) {
     var types = mutableListOf<String>()
     var ball = "https://cdn.bulbagarden.net/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png"
     var item = ""
+    var hp = 0
+    var attack = 0
+    var defense = 0
+    var spAttack = 0
+    var spDefense = 0
+    var speed = 0
+    var hpEv = 0
+    var attackEv = 0
+    var defenseEv = 0
+    var spAttackEv = 0
+    var spDefenseEv = 0
+    var speedEv = 0
+    var hpIv = 0
+    var attackIv = 0
+    var defenseIv = 0
+    var spAttackIv = 0
+    var spDefenseIv = 0
+    var speedIv = 0
 
     init {
         if (id != 0) {
@@ -58,6 +76,76 @@ class Pokemon(id: Any) {
 
     fun setPItem(name: String){
         this.item = name
+    }
+
+    fun setPHp(hp: Int){
+        this.hp = hp
+    }
+
+    fun setPAttack(attack: Int){
+        this.attack = attack
+    }
+
+    fun setPDefense(defense: Int){
+        this.defense = defense
+    }
+
+    fun setPSpAttack(spAttack: Int){
+        this.spAttack = spAttack
+    }
+
+    fun setPSpDefense(spDefense: Int){
+        this.spDefense = spDefense
+    }
+
+    fun setPSpeed(speed: Int){
+        this.speed = speed
+    }
+    fun setPHpEv(hpEv: Int){
+        this.hpEv = hpEv
+    }
+
+    fun setPAttackEv(attackEv: Int){
+        this.attackEv = attackEv
+    }
+
+    fun setPDefenseEv(defenseEv: Int){
+        this.defenseEv = defenseEv
+    }
+
+    fun setPSpAttackEv(spAttackEv: Int){
+        this.spAttackEv = spAttackEv
+    }
+
+    fun setPSpDefenseEv(spDefenseEv: Int){
+        this.spDefenseEv = spDefenseEv
+    }
+
+    fun setPSpeedEv(speedEv: Int){
+        this.speedEv = speedEv
+    }
+    fun setPHpIv(hpIv: Int){
+        this.hpIv = hpIv
+    }
+
+    fun setPAttackIv(attackIv: Int){
+        this.attackIv = attackIv
+    }
+
+    fun setPDefenseIv(defenseIv: Int){
+        this.defenseIv = defenseIv
+    }
+
+    fun setPSpAttackIv(spAttackIv: Int){
+        this.spAttackIv = spAttackIv
+    }
+
+    fun setPSpDefenseIv(spDefenseIv: Int){
+        this.spDefenseIv = spDefenseIv
+    }
+
+    fun setPSpeedIv(speedIv: Int){
+        this.speedIv = speedIv
     }
 }
 
